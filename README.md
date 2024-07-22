@@ -134,13 +134,9 @@ This section provides detailed instructions for setting up the infrastructure, d
 
 - [x] App	
 	- [x] backend
-	     - Configure application settings to integrate with MYSQL
-	     - Create Kubernetes manifest files for deployment
-        - [x] frontend
+	 - [x] frontend
 	- [x] Databases
-	     - Configure database access, handling user credentials and connection endpoints
-	     - Create Kubernetes manifest files including Persistent Volume Claims (PVC), Storage Classes, Secrets, Services, and Deployments for:
-	  - [x] mysql Server
+	     -
 	 
 
  
