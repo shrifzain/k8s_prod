@@ -136,7 +136,9 @@ This section provides detailed instructions for setting up the infrastructure, d
 	- [x] backend
 	 - [x] frontend
 	- [x] Databases
-	     -
+ - [ ] Security
+ - [ ] ci /cd
+ - [ ] Observability and moniter
 	 
 
  
