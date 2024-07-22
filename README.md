@@ -121,8 +121,9 @@ This section provides detailed instructions for setting up the infrastructure, d
 	- [x] EKS Plateform Applications
 		- [x] Install Nginx Ingress Controller for external load balancing
 	        - [x] Install Cert-Manager to manage and renew SSL certificates
+        
       
-         - [x] RDS
+         
 
 - [x] App	
 	- [x] backend
