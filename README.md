@@ -111,6 +111,7 @@ This section provides detailed instructions for setting up the infrastructure, d
 		- [x] Set up two Availability Zones 
 		- [x] Intra, Private subnet, Public Subnet
 		- [x] Configure a NAT Gateway for internet access in Private subnets
+                - [x] vpc 
 		
 	- [x] EKS
 		- [x] Configure VPC-CNI and IRSA to create IAM roles allowing EKS to manage load balancers
