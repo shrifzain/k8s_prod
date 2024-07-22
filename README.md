@@ -98,19 +98,7 @@ This section provides detailed instructions for setting up the infrastructure, d
 2. **Pipeline Configuration**: Set up Jenkins pipeline to automate build, test, and deployment processes.
 3. **Integration**: Integrate Jenkins with your Git repository, Docker registry, and Kubernetes cluster for seamless CI/CD.
 
-# DevOps Task - widebot
-![image](https://github.com/shrifzain/WideBotAITask/blob/master/task-devops.jpg)
-## Task
- - Provisioning Infrastructure as a code with terraform for Web Applications and Databases
-  (MongoDB, SQL Server) and Redis for caching, with Domain Name, Certificate, and Load
-  Balancer, Using docker and Kubernetes.
-###  Installation Guide
-####  Prerequisites
-  Before starting, ensure you have the following tools installed:
-  - kubectl: Kubernetes command-line tool.
-  - Terraform: Infrastructure as Code tool.
-  - Docker: Containerization platform.
-  - AWS CLI: Command-line interface for AWS services.
+
 ### Execution checklist
 - [x] Terraform
 	- [x] Create an Administrator User in AWS
