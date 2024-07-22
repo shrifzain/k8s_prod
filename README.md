@@ -8,7 +8,9 @@ This project outlines the development and deployment of a production-ready, full
 - **Backend**: Node.js
 - **Database**: MySQL (Amazon RDS)
 - **Container Orchestration**: Kubernetes (Amazon EKS)
+# Architecture Design
 
+![image](https://github.com/shrifzain/WideBotAITask/blob/master/task-devops.jpg) 
 ## Infrastructure
 
 - **Cloud Provider**: AWS
