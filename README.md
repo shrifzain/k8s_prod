@@ -121,15 +121,6 @@ This section provides detailed instructions for setting up the infrastructure, d
 	- [x] EKS Plateform Applications
 		- [x] Install Nginx Ingress Controller for external load balancing
 		- [x] Install Cert-Manager to manage and renew SSL certificates
-      
-        - [x] Rds
-                - [x] ddfedg
-      
-        
-        - [x] SSL and Domain Configuration
-	        - [x] SSL Certificate: Use Let's Encrypt to generate SSL certificates.
-	        - [x] Route 53 for Manage DNS records to point to your application resources
-  .
 
 - [x] App	
 	- [x] backend
