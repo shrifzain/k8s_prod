@@ -120,7 +120,7 @@ This section provides detailed instructions for setting up the infrastructure, d
 		- [x] Configure EBS-CSI and IRSA with IAM roles for persistent storage
 	- [x] EKS Plateform Applications
 		- [x] Install Nginx Ingress Controller for external load balancing
-	        - [x] Install Cert-Manager to manage and renew SSL certificates
+		- [x] Install Cert-Manager to manage and renew SSL certificates
         
       
          
