@@ -106,12 +106,13 @@ This section provides detailed instructions for setting up the infrastructure, d
 	- [x] Set up a Terraform S3 Bucket for state storage
         - [x] Set up DynamoDB for state locking and consistency
 - [x] infra
-        - [x] vpc
-	- [x] Configure CIDR blocks
-	- [x] Set up two Availability Zones 
-	- [x] Intra, Private subnet, Public Subnet
-	- [x] Configure a NAT Gateway for internet access in Private subnets
-	
+	- [x] foundation
+                - [x] vpc
+		- [x] Configure CIDR blocks
+		- [x] Set up two Availability Zones 
+		- [x] Intra, Private subnet, Public Subnet
+		- [x] Configure a NAT Gateway for internet access in Private subnets
+		
 	- [x] EKS
 		- [x] Configure VPC-CNI and IRSA to create IAM roles allowing EKS to manage load balancers
 		- [x] Set up Node Groups with Manage DNS records to point to your application resources.
