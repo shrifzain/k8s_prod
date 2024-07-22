@@ -104,7 +104,7 @@ This section provides detailed instructions for setting up the infrastructure, d
 	- [x] Create an Administrator User in AWS
 	- [x] Configure local CLI with the Administrator User credentials
 	- [x] Set up a Terraform S3 Bucket for state storage
-        - [x] Set up DynamoDB for state locking and consistency
+	- [x] Set up DynamoDB for state locking and consistency
 - [x] infra
 	- [x] foundation
 		- [x] Configure CIDR blocks
