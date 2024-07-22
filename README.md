@@ -123,6 +123,11 @@ This section provides detailed instructions for setting up the infrastructure, d
 		- [x] Install Nginx Ingress Controller for external load balancing
 		- [x] Install Cert-Manager to manage and renew SSL certificates
   	- [x] RDS
+  		- [x] Secret manager
+		- [x] Parameter groups
+		- [x] Security groups
+		- [x] mysql
+	- [x] S3 
         
       
          
