@@ -107,6 +107,7 @@ This section provides detailed instructions for setting up the infrastructure, d
 	- [x] Set up DynamoDB for state locking and consistency
 - [x] infra
 	- [x] foundation
+ 		- [x] Vpc 
 		- [x] Configure CIDR blocks
 		- [x] Set up two Availability Zones 
 		- [x] Intra, Private subnet, Public Subnet
@@ -121,6 +122,7 @@ This section provides detailed instructions for setting up the infrastructure, d
 	- [x] EKS Plateform Applications
 		- [x] Install Nginx Ingress Controller for external load balancing
 		- [x] Install Cert-Manager to manage and renew SSL certificates
+  	- [x] RDS
         
       
          
