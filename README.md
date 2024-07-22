@@ -106,12 +106,11 @@ This section provides detailed instructions for setting up the infrastructure, d
 	- [x] Set up a Terraform S3 Bucket for state storage
         - [x] Set up DynamoDB for state locking and consistency
 - [x] infra
-         - [x] infra
-                - [x]vpc
-		- [x] Configure CIDR blocks
-		- [x] Set up two Availability Zones 
-		- [x] Intra, Private subnet, Public Subnet
-		- [x] Configure a NAT Gateway for internet access in Private subnets
+        - [x] vpc
+	- [x] Configure CIDR blocks
+	- [x] Set up two Availability Zones 
+	- [x] Intra, Private subnet, Public Subnet
+	- [x] Configure a NAT Gateway for internet access in Private subnets
 	
 	- [x] EKS
 		- [x] Configure VPC-CNI and IRSA to create IAM roles allowing EKS to manage load balancers
@@ -124,9 +123,10 @@ This section provides detailed instructions for setting up the infrastructure, d
        - [x] Rds
 		- [x] Install Nginx Ingress Controller for external load balancing
 		- [x] Install Cert-Manager to manage and renew SSL certificates
+        
         - [x] SSL and Domain Configuration
-	     - SSL Certificate: Use Let's Encrypt to generate SSL certificates.
-	     - Route 53 for Manage DNS records to point to your application resources.
+	        - [x] SSL Certificate: Use Let's Encrypt to generate SSL certificates.
+	        - [x] Route 53 for Manage DNS records to point to your application resources.
 
 - [x] App	
 	- [x] backend
