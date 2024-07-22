@@ -111,7 +111,7 @@ This section provides detailed instructions for setting up the infrastructure, d
 		- [x] Set up two Availability Zones 
 		- [x] Intra, Private subnet, Public Subnet
 		- [x] Configure a NAT Gateway for internet access in Private subnets
-                - [x] vpc 
+       
 		
 	- [x] EKS
 		- [x] Configure VPC-CNI and IRSA to create IAM roles allowing EKS to manage load balancers
@@ -119,9 +119,6 @@ This section provides detailed instructions for setting up the infrastructure, d
 	auto-scaling capabilities
 		- [x] Configure EBS-CSI and IRSA with IAM roles for persistent storage
 	- [x] EKS Plateform Applications
-		- [x] Install Nginx Ingress Controller for external load balancing
-		- [x] Install Cert-Manager to manage and renew SSL certificates
-       - [x] Rds
 		- [x] Install Nginx Ingress Controller for external load balancing
 		- [x] Install Cert-Manager to manage and renew SSL certificates
         
