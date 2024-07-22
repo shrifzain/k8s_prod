@@ -107,7 +107,6 @@ This section provides detailed instructions for setting up the infrastructure, d
         - [x] Set up DynamoDB for state locking and consistency
 - [x] infra
 	- [x] foundation
-                - [x] vpc
 		- [x] Configure CIDR blocks
 		- [x] Set up two Availability Zones 
 		- [x] Intra, Private subnet, Public Subnet
