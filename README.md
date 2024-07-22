@@ -10,7 +10,7 @@ This project outlines the development and deployment of a production-ready, full
 - **Container Orchestration**: Kubernetes (Amazon EKS)
 # Architecture Design
 
-![image](https://github.com/shrifzain/WideBotAITask/blob/master/task-devops.jpg) 
+![image](https://github.com/shrifzain/WideBotAITask/blob/master/k8s.drawio.png) 
 ## Infrastructure
 
 - **Cloud Provider**: AWS
