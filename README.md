@@ -98,22 +98,51 @@ This section provides detailed instructions for setting up the infrastructure, d
 2. **Pipeline Configuration**: Set up Jenkins pipeline to automate build, test, and deployment processes.
 3. **Integration**: Integrate Jenkins with your Git repository, Docker registry, and Kubernetes cluster for seamless CI/CD.
 
-## Development and Release Lifecycle
+# DevOps Task - widebot
+![image](https://github.com/shrifzain/WideBotAITask/blob/master/task-devops.jpg)
+## Task
+ - Provisioning Infrastructure as a code with terraform for Web Applications and Databases
+  (MongoDB, SQL Server) and Redis for caching, with Domain Name, Certificate, and Load
+  Balancer, Using docker and Kubernetes.
+###  Installation Guide
+####  Prerequisites
+  Before starting, ensure you have the following tools installed:
+  - kubectl: Kubernetes command-line tool.
+  - Terraform: Infrastructure as Code tool.
+  - Docker: Containerization platform.
+  - AWS CLI: Command-line interface for AWS services.
+### Execution checklist
+- [x] Terraform
+	- [x] Create an Administrator User in AWS
+	- [x] Configure local CLI with the Administrator User credentials
+	- [x] Set up a Terraform S3 Bucket for state storage
+        - [x] Set up DynamoDB for state locking and consistency
+- [x] VPC
+	- [x] Configure CIDR blocks
+	- [x] Set up two Availability Zones 
+	- [x] Intra, Private subnet, Public Subnet
+	- [x] Configure a NAT Gateway for internet access in Private subnets
 
-Connect with industry professionals to understand the following topics related to the application development and release lifecycle:
+- [x] EKS
+	- [x] Configure VPC-CNI and IRSA to create IAM roles allowing EKS to manage load balancers
+	- [x] Set up Node Groups with Manage DNS records to point to your application resources.
+auto-scaling capabilities
+	- [x] Configure EBS-CSI and IRSA with IAM roles for persistent storage
+- [x] Plateform Applications
+	- [x] Install Nginx Ingress Controller for external load balancing
+	- [x] Install Cert-Manager to manage and renew SSL certificates
+	
+- [x] Web Applications
+     - Configure application settings to integrate with Redis
+     - Create Kubernetes manifest files for deployment
+- [x] Databases
+     - Configure database access, handling user credentials and connection endpoints
+     - Create Kubernetes manifest files including Persistent Volume Claims (PVC), Storage Classes, Secrets, Services, and Deployments for:
+  - [x] SQL Server
+  - [x] MongoDB
+  - [x] Redis
+- [x] SSL and Domain Configuration
+     - SSL Certificate: Use Let's Encrypt to generate SSL certificates.
+     - Route 53 for Manage DNS records to point to your application resources.
 
-1. **Planning Process**: Strategies and tools for effective project planning.
-2. **Architectural Approval**: Process for obtaining architectural signoff by enterprise architects.
-3. **Enterprise Security Signoff**: Ensuring infrastructure and application design/tools meet security standards.
-4. **Data Compliance**: Adhering to data protection regulations and policies.
-5. **Config/Secret Management**: Best practices for managing configuration and secrets.
-6. **QA/Performance Testing & Approvals**: Ensuring quality and performance through rigorous testing.
-7. **Monitoring KPIs**: Documenting and setting up key performance indicators.
-8. **Change Management Process**: Managing changes in a controlled and systematic manner.
-9. **Production Release Process**: Steps for a smooth and successful production release.
-10. **Post-Production Validation**: Activities to validate application performance and stability after release.
-11. **Rollback Strategies**: Planning and executing rollback scenarios to minimize downtime.
-
-## Contribution
-
-We foster collaboration and welcome contributions to enhance and bug-fix the application. Please fork the repository and submit pull requests to help improve this project.
+ 
